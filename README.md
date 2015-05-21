@@ -5,6 +5,8 @@
 ![Dome](https://raw.githubusercontent.com/y-hryk/YSLTransitionAnimator/master/sample_02.gif)
 ## Requirement
 not support landscape
+
+iOS 7.0
 ## Install
 #### Manually
  Copy YSLTransitionAnimator directory to your project.
