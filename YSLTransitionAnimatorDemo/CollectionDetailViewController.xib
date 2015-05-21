@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionDetailViewController">
+            <connections>
+                <outlet property="headerImageView" destination="51J-hC-k4H" id="c6A-lr-KcL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="51J-hC-k4H">
+                    <rect key="frame" x="0.0" y="64" width="600" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="rXl-Lq-Hyp"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CollectionDetailViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3K8-o1-EyG">
+                    <rect key="frame" x="147" y="407" width="307" height="82"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3K8-o1-EyG" firstAttribute="top" secondItem="51J-hC-k4H" secondAttribute="bottom" constant="93" id="4sd-sT-gIO"/>
+                <constraint firstAttribute="centerX" secondItem="3K8-o1-EyG" secondAttribute="centerX" id="Dts-9q-OKN"/>
+                <constraint firstItem="51J-hC-k4H" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FOX-WJ-ZjL"/>
+                <constraint firstAttribute="trailing" secondItem="51J-hC-k4H" secondAttribute="trailing" id="GeK-Nd-END"/>
+                <constraint firstAttribute="bottom" secondItem="3K8-o1-EyG" secondAttribute="bottom" constant="111" id="Sya-KR-FKM"/>
+                <constraint firstItem="3K8-o1-EyG" firstAttribute="top" secondItem="51J-hC-k4H" secondAttribute="bottom" constant="93" id="gdq-Ek-v2r"/>
+                <constraint firstItem="51J-hC-k4H" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="oMX-jS-RuK"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

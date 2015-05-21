@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D044A9A21B032BDD00D0ABFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D044A9A11B032BDD00D0ABFD /* main.m */; };
+		D044A9A51B032BDD00D0ABFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D044A9A41B032BDD00D0ABFD /* AppDelegate.m */; };
+		D044A9AB1B032BDD00D0ABFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D044A9A91B032BDD00D0ABFD /* Main.storyboard */; };
+		D044A9AD1B032BDD00D0ABFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D044A9AC1B032BDD00D0ABFD /* Images.xcassets */; };
+		D044A9B01B032BDD00D0ABFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D044A9AE1B032BDD00D0ABFD /* LaunchScreen.xib */; };
+		D044A9BC1B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D044A9BB1B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests.m */; };
+		D044A9CE1B032EDE00D0ABFD /* SelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D044A9CD1B032EDE00D0ABFD /* SelectTableViewController.m */; };
+		D044A9D21B0331CD00D0ABFD /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D044A9D01B0331CD00D0ABFD /* CollectionViewController.m */; };
+		D044A9D31B0331CD00D0ABFD /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D044A9D11B0331CD00D0ABFD /* CollectionViewController.xib */; };
+		D044A9D81B03338B00D0ABFD /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D044A9D61B03338B00D0ABFD /* CollectionCell.m */; };
+		D044A9D91B03338B00D0ABFD /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D044A9D71B03338B00D0ABFD /* CollectionCell.xib */; };
+		D051A6411B03482A0046AF1C /* photo_sample_01.png in Resources */ = {isa = PBXBuildFile; fileRef = D051A63A1B03482A0046AF1C /* photo_sample_01.png */; };
+		D051A6421B03482A0046AF1C /* photo_sample_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D051A63B1B03482A0046AF1C /* photo_sample_02.png */; };
+		D051A6431B03482A0046AF1C /* photo_sample_03.png in Resources */ = {isa = PBXBuildFile; fileRef = D051A63C1B03482A0046AF1C /* photo_sample_03.png */; };
+		D051A6441B03482A0046AF1C /* photo_sample_04.png in Resources */ = {isa = PBXBuildFile; fileRef = D051A63D1B03482A0046AF1C /* photo_sample_04.png */; };
+		D051A6451B03482A0046AF1C /* photo_sample_05.png in Resources */ = {isa = PBXBuildFile; fileRef = D051A63E1B03482A0046AF1C /* photo_sample_05.png */; };
+		D051A6461B03482A0046AF1C /* photo_sample_06.png in Resources */ = {isa = PBXBuildFile; fileRef = D051A63F1B03482A0046AF1C /* photo_sample_06.png */; };
+		D051A6471B03482A0046AF1C /* photo_sample_07.png in Resources */ = {isa = PBXBuildFile; fileRef = D051A6401B03482A0046AF1C /* photo_sample_07.png */; };
+		D051A64D1B034BFF0046AF1C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D051A64B1B034BFF0046AF1C /* TableViewController.m */; };
+		D051A64E1B034BFF0046AF1C /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D051A64C1B034BFF0046AF1C /* TableViewController.xib */; };
+		D051A6521B0350410046AF1C /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D051A6501B0350410046AF1C /* TableCell.m */; };
+		D051A6531B0350410046AF1C /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D051A6511B0350410046AF1C /* TableCell.xib */; };
+		D051A6591B0359630046AF1C /* UIViewController+YSLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D051A6561B0359630046AF1C /* UIViewController+YSLTransition.m */; };
+		D051A65A1B0359630046AF1C /* YSLTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D051A6581B0359630046AF1C /* YSLTransitionAnimator.m */; };
+		D09C83021B0C6598009FEE8D /* CollectionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C83001B0C6598009FEE8D /* CollectionDetailViewController.m */; };
+		D09C83031B0C6598009FEE8D /* CollectionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09C83011B0C6598009FEE8D /* CollectionDetailViewController.xib */; };
+		D09C83071B0C70AA009FEE8D /* TableDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C83051B0C70AA009FEE8D /* TableDetailViewController.m */; };
+		D09C83081B0C70AA009FEE8D /* TableDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09C83061B0C70AA009FEE8D /* TableDetailViewController.xib */; };
+		D09C830C1B0C77DE009FEE8D /* TableDetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C830A1B0C77DE009FEE8D /* TableDetailViewController2.m */; };
+		D09C830D1B0C77DE009FEE8D /* TableDetailViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09C830B1B0C77DE009FEE8D /* TableDetailViewController2.xib */; };
+		D09C831C1B0C9E9B009FEE8D /* ysl_navi_back_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D09C831B1B0C9E9B009FEE8D /* ysl_navi_back_btn@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D044A9B61B032BDD00D0ABFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D044A9941B032BDD00D0ABFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D044A99B1B032BDD00D0ABFD;
+			remoteInfo = YSLTransitionAnimatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D044A99C1B032BDD00D0ABFD /* YSLTransitionAnimatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSLTransitionAnimatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D044A9A01B032BDD00D0ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D044A9A11B032BDD00D0ABFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D044A9A31B032BDD00D0ABFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D044A9A41B032BDD00D0ABFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D044A9AA1B032BDD00D0ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D044A9AC1B032BDD00D0ABFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D044A9AF1B032BDD00D0ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D044A9B51B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSLTransitionAnimatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D044A9BA1B032BDD00D0ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D044A9BB1B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSLTransitionAnimatorDemoTests.m; sourceTree = "<group>"; };
+		D044A9CC1B032EDE00D0ABFD /* SelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTableViewController.h; sourceTree = "<group>"; };
+		D044A9CD1B032EDE00D0ABFD /* SelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewController.m; sourceTree = "<group>"; };
+		D044A9CF1B0331CD00D0ABFD /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		D044A9D01B0331CD00D0ABFD /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		D044A9D11B0331CD00D0ABFD /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		D044A9D51B03338B00D0ABFD /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		D044A9D61B03338B00D0ABFD /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		D044A9D71B03338B00D0ABFD /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		D051A63A1B03482A0046AF1C /* photo_sample_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_01.png; sourceTree = "<group>"; };
+		D051A63B1B03482A0046AF1C /* photo_sample_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_02.png; sourceTree = "<group>"; };
+		D051A63C1B03482A0046AF1C /* photo_sample_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_03.png; sourceTree = "<group>"; };
+		D051A63D1B03482A0046AF1C /* photo_sample_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_04.png; sourceTree = "<group>"; };
+		D051A63E1B03482A0046AF1C /* photo_sample_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_05.png; sourceTree = "<group>"; };
+		D051A63F1B03482A0046AF1C /* photo_sample_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_06.png; sourceTree = "<group>"; };
+		D051A6401B03482A0046AF1C /* photo_sample_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_07.png; sourceTree = "<group>"; };
+		D051A64A1B034BFF0046AF1C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D051A64B1B034BFF0046AF1C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D051A64C1B034BFF0046AF1C /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		D051A64F1B0350410046AF1C /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		D051A6501B0350410046AF1C /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		D051A6511B0350410046AF1C /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		D051A6551B0359630046AF1C /* UIViewController+YSLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YSLTransition.h"; sourceTree = "<group>"; };
+		D051A6561B0359630046AF1C /* UIViewController+YSLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YSLTransition.m"; sourceTree = "<group>"; };
+		D051A6571B0359630046AF1C /* YSLTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLTransitionAnimator.h; sourceTree = "<group>"; };
+		D051A6581B0359630046AF1C /* YSLTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLTransitionAnimator.m; sourceTree = "<group>"; };
+		D09C82FF1B0C6598009FEE8D /* CollectionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDetailViewController.h; sourceTree = "<group>"; };
+		D09C83001B0C6598009FEE8D /* CollectionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDetailViewController.m; sourceTree = "<group>"; };
+		D09C83011B0C6598009FEE8D /* CollectionDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionDetailViewController.xib; sourceTree = "<group>"; };
+		D09C83041B0C70AA009FEE8D /* TableDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDetailViewController.h; sourceTree = "<group>"; };
+		D09C83051B0C70AA009FEE8D /* TableDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDetailViewController.m; sourceTree = "<group>"; };
+		D09C83061B0C70AA009FEE8D /* TableDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableDetailViewController.xib; sourceTree = "<group>"; };
+		D09C83091B0C77DE009FEE8D /* TableDetailViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDetailViewController2.h; sourceTree = "<group>"; };
+		D09C830A1B0C77DE009FEE8D /* TableDetailViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDetailViewController2.m; sourceTree = "<group>"; };
+		D09C830B1B0C77DE009FEE8D /* TableDetailViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableDetailViewController2.xib; sourceTree = "<group>"; };
+		D09C831B1B0C9E9B009FEE8D /* ysl_navi_back_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ysl_navi_back_btn@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D044A9991B032BDD00D0ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D044A9B21B032BDD00D0ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D044A9931B032BDC00D0ABFD = {
+			isa = PBXGroup;
+			children = (
+				D044A99E1B032BDD00D0ABFD /* YSLTransitionAnimatorDemo */,
+				D044A9B81B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests */,
+				D044A99D1B032BDD00D0ABFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D044A99D1B032BDD00D0ABFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D044A99C1B032BDD00D0ABFD /* YSLTransitionAnimatorDemo.app */,
+				D044A9B51B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D044A99E1B032BDD00D0ABFD /* YSLTransitionAnimatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D051A6541B0359630046AF1C /* YSLTransitionAnimator */,
+				D051A6391B03482A0046AF1C /* Resources */,
+				D044A9C51B032DD900D0ABFD /* ViewControllers */,
+				D044A9D41B03335F00D0ABFD /* Cells */,
+				D044A9A31B032BDD00D0ABFD /* AppDelegate.h */,
+				D044A9A41B032BDD00D0ABFD /* AppDelegate.m */,
+				D044A9CC1B032EDE00D0ABFD /* SelectTableViewController.h */,
+				D044A9CD1B032EDE00D0ABFD /* SelectTableViewController.m */,
+				D044A9A91B032BDD00D0ABFD /* Main.storyboard */,
+				D044A9AC1B032BDD00D0ABFD /* Images.xcassets */,
+				D044A9AE1B032BDD00D0ABFD /* LaunchScreen.xib */,
+				D044A99F1B032BDD00D0ABFD /* Supporting Files */,
+			);
+			path = YSLTransitionAnimatorDemo;
+			sourceTree = "<group>";
+		};
+		D044A99F1B032BDD00D0ABFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D044A9A01B032BDD00D0ABFD /* Info.plist */,
+				D044A9A11B032BDD00D0ABFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D044A9B81B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D044A9BB1B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests.m */,
+				D044A9B91B032BDD00D0ABFD /* Supporting Files */,
+			);
+			path = YSLTransitionAnimatorDemoTests;
+			sourceTree = "<group>";
+		};
+		D044A9B91B032BDD00D0ABFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D044A9BA1B032BDD00D0ABFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D044A9C51B032DD900D0ABFD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D051A6481B034BB90046AF1C /* CollectionView */,
+				D051A6491B034BC90046AF1C /* TableView */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D044A9D41B03335F00D0ABFD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D044A9D51B03338B00D0ABFD /* CollectionCell.h */,
+				D044A9D61B03338B00D0ABFD /* CollectionCell.m */,
+				D044A9D71B03338B00D0ABFD /* CollectionCell.xib */,
+				D051A64F1B0350410046AF1C /* TableCell.h */,
+				D051A6501B0350410046AF1C /* TableCell.m */,
+				D051A6511B0350410046AF1C /* TableCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D051A6391B03482A0046AF1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D051A63A1B03482A0046AF1C /* photo_sample_01.png */,
+				D051A63B1B03482A0046AF1C /* photo_sample_02.png */,
+				D051A63C1B03482A0046AF1C /* photo_sample_03.png */,
+				D051A63D1B03482A0046AF1C /* photo_sample_04.png */,
+				D051A63E1B03482A0046AF1C /* photo_sample_05.png */,
+				D051A63F1B03482A0046AF1C /* photo_sample_06.png */,
+				D051A6401B03482A0046AF1C /* photo_sample_07.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D051A6481B034BB90046AF1C /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D09C831D1B0D8BEF009FEE8D /* Main */,
+				D09C831E1B0D8BF9009FEE8D /* Detail */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		D051A6491B034BC90046AF1C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				D09C83201B0D8C28009FEE8D /* Main */,
+				D09C831F1B0D8C1F009FEE8D /* Detail */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		D051A6541B0359630046AF1C /* YSLTransitionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				D09C830E1B0C972F009FEE8D /* Resources */,
+				D051A6551B0359630046AF1C /* UIViewController+YSLTransition.h */,
+				D051A6561B0359630046AF1C /* UIViewController+YSLTransition.m */,
+				D051A6571B0359630046AF1C /* YSLTransitionAnimator.h */,
+				D051A6581B0359630046AF1C /* YSLTransitionAnimator.m */,
+			);
+			path = YSLTransitionAnimator;
+			sourceTree = SOURCE_ROOT;
+		};
+		D09C830E1B0C972F009FEE8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D09C831B1B0C9E9B009FEE8D /* ysl_navi_back_btn@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D09C831D1B0D8BEF009FEE8D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D044A9CF1B0331CD00D0ABFD /* CollectionViewController.h */,
+				D044A9D01B0331CD00D0ABFD /* CollectionViewController.m */,
+				D044A9D11B0331CD00D0ABFD /* CollectionViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D09C831E1B0D8BF9009FEE8D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D09C82FF1B0C6598009FEE8D /* CollectionDetailViewController.h */,
+				D09C83001B0C6598009FEE8D /* CollectionDetailViewController.m */,
+				D09C83011B0C6598009FEE8D /* CollectionDetailViewController.xib */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		D09C831F1B0D8C1F009FEE8D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D09C83041B0C70AA009FEE8D /* TableDetailViewController.h */,
+				D09C83051B0C70AA009FEE8D /* TableDetailViewController.m */,
+				D09C83061B0C70AA009FEE8D /* TableDetailViewController.xib */,
+				D09C83091B0C77DE009FEE8D /* TableDetailViewController2.h */,
+				D09C830A1B0C77DE009FEE8D /* TableDetailViewController2.m */,
+				D09C830B1B0C77DE009FEE8D /* TableDetailViewController2.xib */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		D09C83201B0D8C28009FEE8D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D051A64A1B034BFF0046AF1C /* TableViewController.h */,
+				D051A64B1B034BFF0046AF1C /* TableViewController.m */,
+				D051A64C1B034BFF0046AF1C /* TableViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D044A99B1B032BDD00D0ABFD /* YSLTransitionAnimatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D044A9BF1B032BDD00D0ABFD /* Build configuration list for PBXNativeTarget "YSLTransitionAnimatorDemo" */;
+			buildPhases = (
+				D044A9981B032BDD00D0ABFD /* Sources */,
+				D044A9991B032BDD00D0ABFD /* Frameworks */,
+				D044A99A1B032BDD00D0ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSLTransitionAnimatorDemo;
+			productName = YSLTransitionAnimatorDemo;
+			productReference = D044A99C1B032BDD00D0ABFD /* YSLTransitionAnimatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D044A9B41B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D044A9C21B032BDD00D0ABFD /* Build configuration list for PBXNativeTarget "YSLTransitionAnimatorDemoTests" */;
+			buildPhases = (
+				D044A9B11B032BDD00D0ABFD /* Sources */,
+				D044A9B21B032BDD00D0ABFD /* Frameworks */,
+				D044A9B31B032BDD00D0ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D044A9B71B032BDD00D0ABFD /* PBXTargetDependency */,
+			);
+			name = YSLTransitionAnimatorDemoTests;
+			productName = YSLTransitionAnimatorDemoTests;
+			productReference = D044A9B51B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D044A9941B032BDD00D0ABFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = h.yamaguchi;
+				TargetAttributes = {
+					D044A99B1B032BDD00D0ABFD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D044A9B41B032BDD00D0ABFD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D044A99B1B032BDD00D0ABFD;
+					};
+				};
+			};
+			buildConfigurationList = D044A9971B032BDD00D0ABFD /* Build configuration list for PBXProject "YSLTransitionAnimatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D044A9931B032BDC00D0ABFD;
+			productRefGroup = D044A99D1B032BDD00D0ABFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D044A99B1B032BDD00D0ABFD /* YSLTransitionAnimatorDemo */,
+				D044A9B41B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D044A99A1B032BDD00D0ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D044A9D91B03338B00D0ABFD /* CollectionCell.xib in Resources */,
+				D044A9D31B0331CD00D0ABFD /* CollectionViewController.xib in Resources */,
+				D051A6421B03482A0046AF1C /* photo_sample_02.png in Resources */,
+				D051A6461B03482A0046AF1C /* photo_sample_06.png in Resources */,
+				D051A6451B03482A0046AF1C /* photo_sample_05.png in Resources */,
+				D09C83031B0C6598009FEE8D /* CollectionDetailViewController.xib in Resources */,
+				D051A6431B03482A0046AF1C /* photo_sample_03.png in Resources */,
+				D09C830D1B0C77DE009FEE8D /* TableDetailViewController2.xib in Resources */,
+				D044A9AB1B032BDD00D0ABFD /* Main.storyboard in Resources */,
+				D044A9B01B032BDD00D0ABFD /* LaunchScreen.xib in Resources */,
+				D044A9AD1B032BDD00D0ABFD /* Images.xcassets in Resources */,
+				D051A64E1B034BFF0046AF1C /* TableViewController.xib in Resources */,
+				D09C83081B0C70AA009FEE8D /* TableDetailViewController.xib in Resources */,
+				D09C831C1B0C9E9B009FEE8D /* ysl_navi_back_btn@2x.png in Resources */,
+				D051A6411B03482A0046AF1C /* photo_sample_01.png in Resources */,
+				D051A6441B03482A0046AF1C /* photo_sample_04.png in Resources */,
+				D051A6531B0350410046AF1C /* TableCell.xib in Resources */,
+				D051A6471B03482A0046AF1C /* photo_sample_07.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D044A9B31B032BDD00D0ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D044A9981B032BDD00D0ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D044A9D21B0331CD00D0ABFD /* CollectionViewController.m in Sources */,
+				D051A64D1B034BFF0046AF1C /* TableViewController.m in Sources */,
+				D09C83021B0C6598009FEE8D /* CollectionDetailViewController.m in Sources */,
+				D044A9D81B03338B00D0ABFD /* CollectionCell.m in Sources */,
+				D09C830C1B0C77DE009FEE8D /* TableDetailViewController2.m in Sources */,
+				D044A9CE1B032EDE00D0ABFD /* SelectTableViewController.m in Sources */,
+				D051A6591B0359630046AF1C /* UIViewController+YSLTransition.m in Sources */,
+				D051A6521B0350410046AF1C /* TableCell.m in Sources */,
+				D09C83071B0C70AA009FEE8D /* TableDetailViewController.m in Sources */,
+				D044A9A51B032BDD00D0ABFD /* AppDelegate.m in Sources */,
+				D044A9A21B032BDD00D0ABFD /* main.m in Sources */,
+				D051A65A1B0359630046AF1C /* YSLTransitionAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D044A9B11B032BDD00D0ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D044A9BC1B032BDD00D0ABFD /* YSLTransitionAnimatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D044A9B71B032BDD00D0ABFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D044A99B1B032BDD00D0ABFD /* YSLTransitionAnimatorDemo */;
+			targetProxy = D044A9B61B032BDD00D0ABFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D044A9A91B032BDD00D0ABFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D044A9AA1B032BDD00D0ABFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D044A9AE1B032BDD00D0ABFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D044A9AF1B032BDD00D0ABFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D044A9BD1B032BDD00D0ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D044A9BE1B032BDD00D0ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D044A9C01B032BDD00D0ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSLTransitionAnimatorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D044A9C11B032BDD00D0ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSLTransitionAnimatorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D044A9C31B032BDD00D0ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YSLTransitionAnimatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSLTransitionAnimatorDemo.app/YSLTransitionAnimatorDemo";
+			};
+			name = Debug;
+		};
+		D044A9C41B032BDD00D0ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YSLTransitionAnimatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSLTransitionAnimatorDemo.app/YSLTransitionAnimatorDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D044A9971B032BDD00D0ABFD /* Build configuration list for PBXProject "YSLTransitionAnimatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D044A9BD1B032BDD00D0ABFD /* Debug */,
+				D044A9BE1B032BDD00D0ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D044A9BF1B032BDD00D0ABFD /* Build configuration list for PBXNativeTarget "YSLTransitionAnimatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D044A9C01B032BDD00D0ABFD /* Debug */,
+				D044A9C11B032BDD00D0ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D044A9C21B032BDD00D0ABFD /* Build configuration list for PBXNativeTarget "YSLTransitionAnimatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D044A9C31B032BDD00D0ABFD /* Debug */,
+				D044A9C41B032BDD00D0ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D044A9941B032BDD00D0ABFD /* Project object */;
+}
