@@ -1,4 +1,4 @@
-@version = "0.0.1"
+@version = "0.0.2"
 Pod::Spec.new do |s|
   s.name         = "YSLTransitionAnimator"
   s.version      = @version
@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "y-hryk" => "dev.hy630823@gmail.com" }
   s.source       = { :git => "https://github.com/y-hryk/YSLTransitionAnimator.git", :tag => @version }
   s.source_files = 'YSLTransitionAnimator/**/*.{h,m}'
+  s.resources = 'YSLTransitionAnimator/Resources/*.png'
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
 end
