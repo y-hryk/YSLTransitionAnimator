@@ -32,8 +32,8 @@ iOS 7.0
     float navigationHeight = self.navigationController.navigationBar.frame.size.height;
     
     [self ysl_addTransitionDelegate:self];
-    [self ysl_pushTransitionAnimationWithDetailBarHeight:statusHeight + navigationHeight
-                                       animationDuration:0.3];
+    [self ysl_pushTransitionAnimationWithToViewControllerImagePointY:statusHeight + navigationHeight
+                                                   animationDuration:0.3];
 }
 
 #pragma mark -- YSLTransitionAnimatorDataSource
