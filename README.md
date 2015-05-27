@@ -60,22 +60,25 @@ iOS 7.0
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    float statusHeight = [[UIApplication sharedApplication] statusBarFrame].size.height;
+    float navigationHeight = self.navigationController.navigationBar.frame.size.height;
     [self ysl_addTransitionDelegate:self];
-    [self ysl_popTransitionAnimationWithCurrentScrollView:nil
-                                    cancelAnimationPointY:0
+    [self ysl_popTransitionAnimationWithCurrentScrollView:self.tableView
+                                    cancelAnimationPointY:self.headerImageView.frame.size.height - (statusHeight + navigationHeight)
                                         animationDuration:0.3
                                   isInteractiveTransition:YES];
 }
 
 #pragma mark -- YSLTransitionAnimatorDataSource
-- (UIImageView *)popTransitionImageView
-{
-    return self.headerImageView;
-}
 
 - (UIImageView *)pushTransitionImageView
 {
     return nil;
+}
+
+- (UIImageView *)popTransitionImageView
+{
+    return self.headerImageView;
 }
 ```
 ## Licence
